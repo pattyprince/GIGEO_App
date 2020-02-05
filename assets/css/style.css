@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 960px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+nav {
+  height: 80px;
+  width: auto;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+header {
+  width: auto;
+  grid-column: 1/-1;
+  grid-row: 2/6;
+}
+
+main {
+  width: auto;
+  grid-column: 1/-1;
+  grid-row: 6/12;
+}
+
+.herosection {
+  height: 250px;
+  background-color: gray;
+}
+
+main .perfil_main {
+  width: auto;
+  height: 100px;
+  background-color: indigo;
+}
+
+main .galeria_main {
+  width: auto;
+  height: 700px;
+  background-color: lightblue;
+}
+
+/*# sourceMappingURL=style.css.map */

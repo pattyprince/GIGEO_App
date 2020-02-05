@@ -1,0 +1,26 @@
+.container {
+  width: 960px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+nav {
+  height: 80px;
+  width: auto;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+header {
+  width: auto;
+  grid-column: 1 / -1;
+  grid-row: 2 / 6;
+}
+
+main {
+  width: auto;
+  grid-column: 1 / -1;
+  grid-row: 6 / 12;
+}
