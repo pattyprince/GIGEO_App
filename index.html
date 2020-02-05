@@ -18,9 +18,11 @@
     />
     <title>GIGEO</title>
   </head>
-  <body class="container">
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand nav__logo" href="#"
+        ><img src="./assets/img/gigeo.jpg" alt=""
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,7 +35,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"
               >Home <span class="sr-only">(current)</span></a
@@ -66,12 +68,70 @@
         </ul>
       </div>
     </nav>
-    <header class="herosection">
-      header
-    </header>
+    <header class="container-fluid herosection"></header>
     <main class="contenido_main">
-      <div class="perfil_main">perfil main</div>
-      <div class="galeria_main">galeria main</div>
+      <div class="perfil_main d-flex mx-5 py-4">
+        <div class="media col-12">
+          <img
+            src="./assets/img/profile-image.png"
+            class="mr-3 rounded-circle"
+            alt="..."
+          />
+          <div class="media-body">
+            <h5 class="font-weight-bold mt-0">Yuki Mukami</h5>
+            30.000 seguidores
+          </div>
+        </div>
+        <div class="ml-auto d-none d-md-block">
+          <button class="bg-primary ml-3">Mensaje</button>
+          <button class="bg-danger ml-3">Seguir</button>
+        </div>
+      </div>
+      <div class="container mx-5">
+        <h4 class="font-weight-bold px-1">Videos populares</h4>
+      </div>
+      <div class="galeria_main col-sm-12">
+        <div class="foto">
+          <img src="./assets/img/image-1.png" alt="" />
+          <h6>Después de la vela - Yuki Mukami</h6>
+          <p>16k vistas - 1 semana atrás</p>
+        </div>
+        <div class="foto">
+          <img src="./assets/img/image-2.png" alt="" />
+          <h6>Después de la vela - Yuki Mukami</h6>
+          <p>16k vistas - 1 semana atrás</p>
+        </div>
+        <div class="foto">
+          <img src="./assets/img/image-3.png" alt="" />
+          <h6>Después de la vela - Yuki Mukami</h6>
+          <p>16k vistas - 1 semana atrás</p>
+        </div>
+        <div class="foto flex-column">
+          <img src="./assets/img/image-4.png" alt="" />
+          <h6>Después de la vela - Yuki Mukami</h6>
+          <p>16k vistas - 1 semana atrás</p>
+        </div>
+        <div class="foto flex-column">
+          <img src="./assets/img/image-5.png" alt="" />
+          <h6>Después de la vela - Yuki Mukami</h6>
+          <p>16k vistas - 1 semana atrás</p>
+        </div>
+        <div class="foto flex-column">
+          <img src="./assets/img/image-6.png" alt="" />
+          <h6>Después de la vela - Yuki Mukami</h6>
+          <p>16k vistas - 1 semana atrás</p>
+        </div>
+        <div class="foto flex-column">
+          <img src="./assets/img/image-7.png" alt="" />
+          <h6>Después de la vela - Yuki Mukami</h6>
+          <p>16k vistas - 1 semana atrás</p>
+        </div>
+        <div class="foto flex-column">
+          <img src="./assets/img/image-8.png" alt="" />
+          <h6>Después de la vela - Yuki Mukami</h6>
+          <p>16k vistas - 1 semana atrás</p>
+        </div>
+      </div>
     </main>
     <!-- <footer>
       FOOTER

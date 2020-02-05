@@ -1,9 +1,6 @@
 .container {
   width: 960px;
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto;
 }
 
 nav {
@@ -23,4 +20,16 @@ main {
   width: auto;
   grid-column: 1 / -1;
   grid-row: 6 / 12;
+}
+
+.galeria_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 25% 25% 25% 25% 25%;
+  gap: 10px;
+}
+
+h2,
+h6 {
+  font-family: $font1;
 }

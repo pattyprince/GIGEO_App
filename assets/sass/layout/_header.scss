@@ -1,8 +1,14 @@
+.navbrand {
+  width: 60px;
+}
+
 .herosection {
-  height: 250px;
+  width: 100%;
+  height: 200px;
   background-color: gray;
-  // background-image: url("image-banner.png");
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // background-size: cover;
+  background-image: url("../img/image-banner.png");
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+  margin: 0 auto;
 }
