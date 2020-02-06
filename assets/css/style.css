@@ -60,15 +60,15 @@ nav {
   margin: 0;
 }
 
+.container {
+  padding-left: 40px;
+}
+
 .perfil_main {
   width: 80%;
   height: 100px;
   margin-right: 130px;
   background-color: #fff;
-}
-
-.container {
-  padding-left: 40px;
 }
 
 .galeria_main {
