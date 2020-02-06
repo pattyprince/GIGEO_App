@@ -1,6 +1,9 @@
 nav {
-  width: 100vw;
   height: 80px;
+}
+
+.navbar-nav {
+  background-color: $fondo_nav;
 }
 
 .navbar-brand img {
@@ -14,7 +17,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
   .navbar-brand img {
-    margin-left: 70px;
+    margin-left: 50px;
   }
 
   i {
