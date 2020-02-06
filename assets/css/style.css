@@ -32,6 +32,11 @@ nav {
   .navbar-brand img {
     margin-left: 70px;
   }
+
+  i {
+    background-color: #fff;
+    color: #fff;
+  }
 }
 .galeria_main {
   display: grid;
