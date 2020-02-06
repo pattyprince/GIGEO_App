@@ -3,14 +3,18 @@
 }
 
 .perfil_main {
-  width: 100%;
+  width: 80%;
   height: 100px;
-  margin-right: 110px;
+  margin-right: 130px;
   background-color: $white;
 }
 
+.container {
+  padding-left: 40px;
+}
+
 .galeria_main {
-  width: 1050px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -23,22 +27,19 @@
   height: 64px;
 }
 
-.titulo__videos {
-  margin-left: 110px;
-}
-
 .foto {
-  height: 300px;
+  height: 100%;
   padding: 10px;
   margin-bottom: 200px;
 }
 
 .foto img {
-  width: 250px;
-  height: 150px;
+  width: 100%;
+  height: auto;
 }
 
-.foto h6 {
+.foto h6,
+p {
   width: 250px;
   padding: 5px;
 }
@@ -46,7 +47,8 @@
 @media only screen and (max-width: 600px) {
   .perfil_main {
     display: inline-flex;
-    padding-left: 130px;
+    justify-content: center;
+    align-self: center;
   }
   .galeria_main {
     display: inline;
@@ -54,11 +56,12 @@
 
   .foto {
     margin-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 100px;
+    padding-right: 50px;
   }
 
   .foto img {
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: auto;
   }
 }
