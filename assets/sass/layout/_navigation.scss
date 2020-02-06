@@ -2,26 +2,35 @@ nav {
   height: 80px;
 }
 
+.container_nav {
+  display: inline-block;
+  width: 40%;
+}
+
 .navbar-nav {
   background-color: $fondo_nav;
 }
 
 .navbar-brand img {
-  width: 120px;
-  margin-left: 130px;
+  width: 50%;
+  margin-left: 120px;
 }
 
 .nav__menu {
-  margin-right: 130px;
+  margin-right: 100px;
 }
 
 @media only screen and (max-width: 600px) {
   .navbar-brand img {
-    margin-left: 50px;
+    margin-left: 35px;
+    width: 80%;
   }
 
-  i {
-    background-color: $white;
-    color: $white;
+  .navbar-brand a {
+    display: inline-block;
   }
+  // .nav__menu {
+  //   width: 80%;
+  //   margin-right: 0;
+  // }
 }
