@@ -11,3 +11,9 @@ nav {
 .nav__menu {
   margin-right: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand img {
+    margin-left: 70px;
+  }
+}
