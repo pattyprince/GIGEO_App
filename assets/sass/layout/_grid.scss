@@ -1,35 +1,6 @@
-// .container {
-//   width: 960px;
-//   height: auto;
-// }
-
-nav {
-  height: 80px;
-  width: auto;
-  // grid-column: 1 / -1;
-  // grid-row: 1 / 2;
-}
-
-header {
-  width: auto;
-  // grid-column: 1 / -1;
-  // grid-row: 2 / 6;
-}
-
-// main {
-//   width: auto;
-//   grid-column: 1 / -1;
-//   grid-row: 6 / 12;
-// }
-
 .galeria_main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 25% 25% 25% 25% 25%;
   gap: 5px;
-}
-
-h2,
-h6 {
-  font-family: $font1;
 }
