@@ -4,3 +4,10 @@ button {
   color: $white;
   border: 0;
 }
+
+.button1 {
+  background-color: $primary;
+  &:hover {
+    background-color: $primary-hover;
+  }
+}
