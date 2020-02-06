@@ -42,7 +42,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
-  gap: 5px;
+  gap: 10px;
 }
 
 .herosection {
